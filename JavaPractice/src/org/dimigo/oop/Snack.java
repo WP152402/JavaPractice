@@ -1,5 +1,5 @@
 package org.dimigo.oop;
-
+ 
 public class Snack {
 	private String name;
 	private String company;

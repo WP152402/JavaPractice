@@ -6,7 +6,7 @@ package org.dimigo.basic;
 import java.util.Random;
 import java.util.Scanner;
 
-/**
+/** 
  * <pre>
  * org.dimigo.basic
  * |_Loop
