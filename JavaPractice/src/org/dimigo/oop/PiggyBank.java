@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package org.dimigo.oop;
+
+/**
+ * <pre>
+ * org.dimigo.oop
+ * 	|_PiggyBank
+ * 
+ * 1.개요 :
+ * 2. 작성일 : 2017. 4. 18.
+ * </pre>
+ * 
+ * @author 		: 고오오오오오영으으으으으은
+ * @version		: 1.0
+ */
+public class PiggyBank {
+	private static int balance;
+	public static void putMoney(FamilyMember member, int amount){
+		System.out.println(member.getMemberName() + " : " + amount +"원 넣음");
+		balance+=amount;
+	}
+	public static void printBalance(){
+		System.out.println("돼지저금통 총 금액 : " + balance + "원");
+	}
+}
