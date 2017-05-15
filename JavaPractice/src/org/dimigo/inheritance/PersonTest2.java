@@ -23,6 +23,9 @@ public class PersonTest2 {
 				new Japanese("다나카"),
 				new Chinese("왕밍")
 		};
+		greeting(person);
+	}
+	private static void greeting(Person[] person){
 		for(Person p : person){
 			System.out.println(p);
 			p.sayHello();
@@ -30,5 +33,4 @@ public class PersonTest2 {
 			System.out.println();
 		}
 	}
-
 }
