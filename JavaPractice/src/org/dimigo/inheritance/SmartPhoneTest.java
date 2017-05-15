@@ -20,8 +20,7 @@ public class SmartPhoneTest {
 	public static void main(String[] args) {
 		SmartPhone[] s = {
 				new IPhone("iPhone7", "애플", 900000),
-				new Galaxy("갤럭시 S"
-						+ "8", "삼성", 800000)
+				new Galaxy("갤럭시 S8", "삼성", 800000)
 		};
 		for(int i=0; i<s.length; i++){
 			System.out.println(s[i]);
