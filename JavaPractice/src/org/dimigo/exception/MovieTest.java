@@ -29,6 +29,7 @@ public class MovieTest {
 	}
 	catch(Exception e){
 		System.out.println(e.getMessage());
+		throw e;
 	}
 	}
 }
