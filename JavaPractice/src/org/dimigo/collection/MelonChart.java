@@ -24,21 +24,21 @@ public class MelonChart {
 		list.add(new Music("I LUV IT", "PSY"));
 		list.add(new Music("맞지?", "언니쓰"));
 		System.out.println("-- << 멜론 챠트 >> --");
-		print(list);
+		printList(list);
 		System.out.println("-- << 2위 곡 추가 >> --");
 		list.add(1, new Music("SIGNAL", "트와이스"));
-		print(list);
+		printList(list);
 		System.out.println("-- << 3위 곡  변경 >> --");
 		list.set(2, new Music("팔레트", "아이유"));
-		print(list);
+		printList(list);
 		System.out.println("-- << 2위 곡 삭제 >> --");
 		list.remove(1);
-		print(list);
+		printList(list);
 		System.out.println("-- << 전체 리스트 삭제 >> --");
 		list.clear();
-		print(list);
+		printList(list);
 	}
-	private static void print(List<Music> list) {
+	private static void printList(List<Music> list) {
 		int i = 0;
 		for(Music a : list){
 			i++;
