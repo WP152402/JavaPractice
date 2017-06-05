@@ -35,6 +35,6 @@ public class Music {
 		this.singer = singer;
 	}
 	public String toString(){
-		return title + "(" + singer + ")";
+		return title + " (" + singer + ")";
 	}
 }
